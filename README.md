@@ -19,7 +19,7 @@ Run the .exe file → Add to PATH when asked.
 Open Anaconda Prompt, then:
 
 `conda create -n STP_workshop python=3.13.3`
-`conda activate STP_workshop
+`conda activate STP_workshop`
 `conda install jupyter`
 
 🍎 macOS
