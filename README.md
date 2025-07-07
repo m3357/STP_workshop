@@ -25,14 +25,14 @@ Open Anaconda Prompt, then:
 🍎 macOS
 Install Miniconda:
 
-`curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh`
-`bash Miniconda3-latest-MacOSX-arm64.sh`
+1. `curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh`
+2. `bash Miniconda3-latest-MacOSX-arm64.sh`
 
 Create and activate environment:
 
-`conda create -n bioenv python=3.13.3`
-`conda activate bioenv`
-`conda install jupyter`
+1. `conda create -n bioenv python=3.13.3`
+2. `conda activate bioenv`
+3. `conda install jupyter`
 
 💻 Installation on macOS
 ✅ option1 : Using Homebrew 
