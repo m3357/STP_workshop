@@ -18,9 +18,9 @@ Run the .exe file → Add to PATH when asked.
 
 Open Anaconda Prompt, then:
 
-`conda create -n STP_workshop python=3.13.3`
-`conda activate STP_workshop`
-`conda install jupyter`
+1. `conda create -n STP_workshop python=3.13.3`
+2. `conda activate STP_workshop`
+3. `conda install jupyter`
 
 🍎 macOS
 Install Miniconda:
@@ -46,33 +46,33 @@ Then install the tools:
 
 🔧 For GATK, Homebrew doesn’t support it directly. Use:
 
-`brew install openjdk`
-`wget https://github.com/broadinstitute/gatk/releases/download/4.5.0.0/gatk-4.5.0.0.zip`
-`unzip gatk-4.5.0.0.zip`
-`cd gatk-4.5.0.0`
-`./gatk --help`
+1. `brew install openjdk`
+2. `wget https://github.com/broadinstitute/gatk/releases/download/4.5.0.0/gatk-4.5.0.0.zip`
+3. `unzip gatk-4.5.0.0.zip`
+4. `cd gatk-4.5.0.0`
+5. `./gatk --help`
 
 ✅ Option 2: Using Conda (Cross-platform)
-`conda activate STP_workshop`
-`conda create -c bioconda -c conda-forge \ bwa samtools fastqc gatk4`
+1. `conda activate STP_workshop`
+2. `conda create -c bioconda -c conda-forge \ bwa samtools fastqc gatk4`
 
 ⚠️ On Apple Silicon (M1/M2), use Rosetta or ensure dependencies match osx-arm64.
 
 🪟 Installation on Windows
 ✅ Option 1: Using Conda 
 
-`conda activate STP_workshop`
-`conda -c bioconda -c conda-forge \ bwa samtools fastqc gatk4`
+1. `conda activate STP_workshop`
+2. `conda -c bioconda -c conda-forge \ bwa samtools fastqc gatk4`
 
 ✅ Option 2: Using Windows Subsystem for Linux (WSL)
 Install WSL2 + Ubuntu, then:
 
-`sudo apt update`
-`sudo apt install bwa samtools fastqc`
+1. `sudo apt update`
+2. `sudo apt install bwa samtools fastqc`
 
 For GATK:
-`sudo apt install default-jdk`
-`wget https://github.com/broadinstitute/gatk/releases/download/4.5.0.0/gatk-4.5.0.0.zip`
-`unzip gatk-4.5.0.0.zip`
-`cd gatk-4.5.0.0`
-`./gatk --help`
+1. `sudo apt install default-jdk`
+2. `wget https://github.com/broadinstitute/gatk/releases/download/4.5.0.0/gatk-4.5.0.0.zip`
+3. `unzip gatk-4.5.0.0.zip`
+4. `cd gatk-4.5.0.0`
+5. `./gatk --help`
