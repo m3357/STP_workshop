@@ -5,6 +5,8 @@ I will be adding here all softwares and tools needed for the Module 2
 1. `Genetic Variant analysis`
 2. `Comparative Genomics`
 
+Dataset : https://drive.google.com/file/d/1bb7-y72HgmVI2lEB5XHiJtNtwPF2nEJj/view?usp=drive_link
+
 🪶 Install Miniconda (Lightweight Conda + Python)
 
 🪟 Windows
